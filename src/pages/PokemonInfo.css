@@ -1,0 +1,14 @@
+.pokemon-container {
+    background-color: #000000;
+    display: flex;
+    background-color: rgb(3, 133, 209);
+    height: calc(100vh - 70px);
+}
+.pokemon-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.pokemon-container img {
+    width: 200px;
+    height: 200px;
+}

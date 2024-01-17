@@ -1,0 +1,24 @@
+.nav {
+    width: 100vw;
+    background-color: transparent;
+    box-shadow: rgb(29, 29, 29) 0px 20px 30px -10px;
+    border-radius: 10px;
+    height: 70px;
+}
+.nav_wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_wrapper a {
+    color: gold;
+}
+.nav_wrapper a:first-child {
+    margin-right: 30px;
+}
+.pokeApi {
+    color: red;
+}

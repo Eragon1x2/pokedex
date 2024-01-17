@@ -1,0 +1,71 @@
+.pokemon_list {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.pokemon_list ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+}   
+.pokemon_item {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(133, 133, 133);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.pokemon_item .pokemon_name {
+    /* position: absolute; */
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+    color: aqua;
+    margin-top: 40px;
+}
+.pokemon_stats {
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.pokemon_moves {
+    border: 1px solid white;
+    padding: 10px;
+}
+.pokemon_name::first-letter {
+    text-transform: uppercase;
+}
+.pokemon_moves li {
+    display: flex;
+}
+.pokemon_item img {
+width: 100px;
+height: 80px;
+margin-top: 50px;
+}
+.pokemon_item:hover {
+    transition: 2s;
+    scale: 1.1;
+}
+.pokemon_item button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.pokemon_item button svg {
+    width: 30px;
+    height: 30px;
+    fill: gold;
+}
